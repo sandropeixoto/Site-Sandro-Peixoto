@@ -1,39 +1,55 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-brutalist-yellow: #F3F415;
+  --color-brutalist-cyan: #00F0FF;
+  --color-brutalist-pink: #FF00F5;
+  --color-brutalist-black: #000000;
+  --color-brutalist-white: #FFFFFF;
+  
+  --shadow-hard: 4px 4px 0px 0px #000;
+  --shadow-hard-hover: 2px 2px 0px 0px #000;
+  --shadow-hard-lg: 8px 8px 0px 0px #000;
+  
+  --border-width-3: 3px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-:root {
-  --brutalist-yellow: #F3F415;
-  --brutalist-cyan: #00F0FF;
-  --brutalist-pink: #FF00F5;
-  --brutalist-black: #000000;
-  --brutalist-white: #FFFFFF;
-}
-
 body {
   font-family: 'Space Grotesk', sans-serif;
-  background-color: var(--brutalist-white);
-  color: var(--brutalist-black);
+  background-color: var(--color-brutalist-white);
+  color: var(--color-brutalist-black);
 }
 
-.neo-brutalist-card {
-  @apply border-3 border-black shadow-hard bg-white p-6 transition-all duration-200;
+@layer components {
+  .neo-brutalist-card {
+    @apply border-3 border-black shadow-hard bg-white p-6 transition-all duration-200;
+  }
+
+  .neo-brutalist-card:hover {
+    @apply shadow-hard-hover translate-x-[2px] translate-y-[2px];
+  }
+
+  .neo-brutalist-button {
+    @apply border-3 border-black shadow-hard px-6 py-3 font-bold transition-all duration-200 uppercase tracking-tighter;
+  }
+
+  .neo-brutalist-button:active {
+    @apply shadow-none translate-x-[4px] translate-y-[4px];
+  }
+
+  .neo-brutalist-heading {
+    @apply font-bold uppercase tracking-tighter leading-none;
+  }
 }
 
-.neo-brutalist-card:hover {
-  @apply shadow-hard-hover translate-x-[2px] translate-y-[2px];
+.outline-text {
+  -webkit-text-stroke: 2px black;
+  color: transparent;
 }
 
-.neo-brutalist-button {
-  @apply border-3 border-black shadow-hard px-6 py-3 font-bold transition-all duration-200 uppercase tracking-tighter;
-}
-
-.neo-brutalist-button:active {
-  @apply shadow-none translate-x-[4px] translate-y-[4px];
-}
-
-.neo-brutalist-heading {
-  @apply font-bold uppercase tracking-tighter leading-none;
+.outline-text-black {
+  -webkit-text-stroke: 2px black;
+  color: transparent;
 }
