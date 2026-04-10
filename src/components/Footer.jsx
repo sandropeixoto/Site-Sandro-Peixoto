@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, Globe, Code } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -32,10 +32,10 @@ const Footer = () => {
         <div className="flex flex-col justify-end items-start md:items-end gap-10">
           <div className="flex gap-4">
             <a href="#" className="neo-brutalist-button bg-white hover:bg-brutalist-cyan p-4">
-              <Linkedin size={32} />
+              <Globe size={32} />
             </a>
             <a href="#" className="neo-brutalist-button bg-white hover:bg-brutalist-pink p-4">
-              <Instagram size={32} />
+              <Code size={32} />
             </a>
           </div>
           <div className="neo-brutalist-card bg-brutalist-black text-white p-4 text-sm font-bold uppercase tracking-tighter">
