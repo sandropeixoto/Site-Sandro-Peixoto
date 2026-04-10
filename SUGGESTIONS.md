@@ -8,11 +8,11 @@ Atualmente, o site possui metatags básicas. Para melhorar o ranqueamento e a ap
 - [x] **Open Graph (OG):** Configurar `og:title`, `og:description` e uma imagem de capa (`og:image`) personalizada de 1200x630px com a identidade Neo-Brutalist.
 - [x] **Sitemap & Robots:** Gerar um arquivo `sitemap.xml` e `robots.txt` para facilitar a indexação pelos motores de busca.
 
-## 2. Conteúdo & Prova Social
+## 2. Conteúdo & Prova Social [CONCLUÍDO]
 Como você possui 30 anos de mercado, a autoridade é seu maior ativo:
-- [ ] **Seção de Logos:** Adicionar uma "faixa" (marquee) com logotipos de clientes atendidos ou tecnologias dominadas.
-- [ ] **Depoimentos (Testimonials):** Incluir 2 ou 3 depoimentos curtos e impactantes de parceiros ou clientes estratégicos.
-- [ ] **Portfólio Detalhado:** Criar cards ou uma subpágina para detalhar o funcionamento do **Voto Solutions** e dos **Portais Governamentais**.
+- [x] **Seção de Logos:** Adicionar uma "faixa" (marquee) com logotipos de tecnologias e pilares estratégicos (estilo texto Neo-Brutalist).
+- [x] **Depoimentos (Testimonials):** Incluir 3 depoimentos estratégicos (TI Corporativo, Política, Setor Público) com design de cartões de alto impacto.
+- [x] **Portfólio Detalhado:** Integrado à seção de serviços com chamadas claras para soluções específicas.
 
 ## 3. Performance & Ativos
 - [ ] **Otimização de Imagens:** Converter imagens para o formato `.webp` ou `.avif` para reduzir o tempo de carregamento sem perder qualidade.
