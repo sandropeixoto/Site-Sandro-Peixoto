@@ -1,0 +1,35 @@
+# Sugestões de Evolução — Sandro Peixoto Landing Page
+
+Este documento apresenta recomendações para futuras melhorias na landing page, focando em SEO, performance, experiência do usuário (UX) e conversão.
+
+## 1. SEO & Compartilhamento Social (Open Graph)
+Atualmente, o site possui metatags básicas. Para melhorar o ranqueamento e a aparência ao compartilhar links no WhatsApp/LinkedIn:
+- [ ] **Meta Tags Dinâmicas:** Adicionar tags `<meta name="description">` mais detalhadas.
+- [ ] **Open Graph (OG):** Configurar `og:title`, `og:description` e uma imagem de capa (`og:image`) personalizada de 1200x630px com a identidade Neo-Brutalist.
+- [ ] **Sitemap & Robots:** Gerar um arquivo `sitemap.xml` e `robots.txt` para facilitar a indexação pelos motores de busca.
+
+## 2. Conteúdo & Prova Social
+Como você possui 30 anos de mercado, a autoridade é seu maior ativo:
+- [ ] **Seção de Logos:** Adicionar uma "faixa" (marquee) com logotipos de clientes atendidos ou tecnologias dominadas.
+- [ ] **Depoimentos (Testimonials):** Incluir 2 ou 3 depoimentos curtos e impactantes de parceiros ou clientes estratégicos.
+- [ ] **Portfólio Detalhado:** Criar cards ou uma subpágina para detalhar o funcionamento do **Voto Solutions** e dos **Portais Governamentais**.
+
+## 3. Performance & Ativos
+- [ ] **Otimização de Imagens:** Converter imagens para o formato `.webp` ou `.avif` para reduzir o tempo de carregamento sem perder qualidade.
+- [ ] **Lazy Loading:** Implementar carregamento tardio para imagens e componentes que não estão na "dobra inicial" (below the fold).
+
+## 4. Experiência do Usuário (UX) & Interatividade
+O estilo Neo-Brutalist permite ousadias visuais:
+- [ ] **Custom Cursor:** Implementar um cursor personalizado (ex: um círculo preto sólido) que interage com os elementos do site.
+- [ ] **Modo Escuro (Dark Mode):** Embora o design atual seja vibrante, um "toggle" para um tema dark focado em acessibilidade noturna seria um diferencial moderno.
+- [ ] **Animações de Scroll Profundas:** Utilizar `useScroll` do Framer Motion para criar efeitos de parallax ou revelação de texto conforme o usuário rola a página.
+
+## 5. Conversão & Analytics
+- [ ] **Google Analytics / Plausible:** Implementar uma ferramenta de análise (preferencialmente Plausible ou Umami por serem focadas em privacidade) para entender de onde vêm os visitantes.
+- [ ] **Pixel de Conversão:** Se planeja fazer anúncios (LinkedIn Ads/Google Ads), instalar os pixels necessários para rastrear cliques nos botões de WhatsApp/E-mail.
+
+## 6. Blog ou "Insights"
+- [ ] **Conteúdo Estratégico:** Uma seção de artigos curtos sobre "Tendências de TI para Governos" ou "Arquitetura de Software em 2026" ajudaria a reforçar sua posição como líder de pensamento (Thought Leader).
+
+---
+*Documento gerado automaticamente como parte da entrega do projeto Sandro Peixoto Landing Page.*

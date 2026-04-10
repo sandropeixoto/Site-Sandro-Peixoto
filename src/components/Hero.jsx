@@ -21,12 +21,12 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-6xl md:text-8xl lg:text-[10rem] font-black uppercase leading-[0.9] tracking-tighter mb-8 break-words"
+          className="text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] font-black uppercase leading-[0.9] tracking-tighter mb-8 break-words"
         >
           TRANSFORMANDO <br />
           <span className="text-brutalist-pink outline-text">DESAFIOS</span> <br />
           EM SOLUÇÕES <br />
-          <span className="bg-brutalist-yellow px-4 border-3 border-black shadow-hard inline-block">ESTRATÉGICAS</span>
+          <span className="bg-brutalist-yellow px-4 border-3 border-black shadow-hard inline-block mt-2">ESTRATÉGICAS</span>
         </motion.h1>
         
         <motion.div 
