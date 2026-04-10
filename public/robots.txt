@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandropeixoto.com.br/sitemap.xml

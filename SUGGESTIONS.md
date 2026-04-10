@@ -2,11 +2,11 @@
 
 Este documento apresenta recomendações para futuras melhorias na landing page, focando em SEO, performance, experiência do usuário (UX) e conversão.
 
-## 1. SEO & Compartilhamento Social (Open Graph)
+## 1. SEO & Compartilhamento Social (Open Graph) [CONCLUÍDO]
 Atualmente, o site possui metatags básicas. Para melhorar o ranqueamento e a aparência ao compartilhar links no WhatsApp/LinkedIn:
-- [ ] **Meta Tags Dinâmicas:** Adicionar tags `<meta name="description">` mais detalhadas.
-- [ ] **Open Graph (OG):** Configurar `og:title`, `og:description` e uma imagem de capa (`og:image`) personalizada de 1200x630px com a identidade Neo-Brutalist.
-- [ ] **Sitemap & Robots:** Gerar um arquivo `sitemap.xml` e `robots.txt` para facilitar a indexação pelos motores de busca.
+- [x] **Meta Tags Dinâmicas:** Adicionar tags `<meta name="description">` mais detalhadas.
+- [x] **Open Graph (OG):** Configurar `og:title`, `og:description` e uma imagem de capa (`og:image`) personalizada de 1200x630px com a identidade Neo-Brutalist.
+- [x] **Sitemap & Robots:** Gerar um arquivo `sitemap.xml` e `robots.txt` para facilitar a indexação pelos motores de busca.
 
 ## 2. Conteúdo & Prova Social
 Como você possui 30 anos de mercado, a autoridade é seu maior ativo:
