@@ -46,7 +46,11 @@ const Services = () => {
         {services.map((service, idx) => (
           <motion.div
             key={idx}
-            whileHover={{ y: -10 }}
+            initial={{ opacity: 0, y: 50, rotate: idx % 2 === 0 ? -2 : 2 }}
+            whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: idx * 0.1 }}
+            whileHover={{ y: -10, rotate: idx % 2 === 0 ? 1 : -1 }}
             className={`neo-brutalist-card ${service.color} text-black h-full flex flex-col`}
           >
             <div className="mb-6 p-4 border-3 border-black bg-white inline-block w-fit shadow-hard">

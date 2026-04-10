@@ -18,11 +18,11 @@ Como você possui 30 anos de mercado, a autoridade é seu maior ativo:
 - [ ] **Otimização de Imagens:** Converter imagens para o formato `.webp` ou `.avif` para reduzir o tempo de carregamento sem perder qualidade.
 - [ ] **Lazy Loading:** Implementar carregamento tardio para imagens e componentes que não estão na "dobra inicial" (below the fold).
 
-## 4. Experiência do Usuário (UX) & Interatividade
+## 4. Experiência do Usuário (UX) & Interatividade [CONCLUÍDO]
 O estilo Neo-Brutalist permite ousadias visuais:
-- [ ] **Custom Cursor:** Implementar um cursor personalizado (ex: um círculo preto sólido) que interage com os elementos do site.
+- [x] **Custom Cursor:** Implementado cursor reativo (círculo preto) que expande e inverte cores ao interagir com elementos.
 - [ ] **Modo Escuro (Dark Mode):** Embora o design atual seja vibrante, um "toggle" para um tema dark focado em acessibilidade noturna seria um diferencial moderno.
-- [ ] **Animações de Scroll Profundas:** Utilizar `useScroll` do Framer Motion para criar efeitos de parallax ou revelação de texto conforme o usuário rola a página.
+- [x] **Animações de Scroll Profundas:** Implementado `whileInView` do Framer Motion para efeitos de revelação e rotação dinâmica nos cards de serviços.
 
 ## 5. Conversão & Analytics
 - [ ] **Google Analytics / Plausible:** Implementar uma ferramenta de análise (preferencialmente Plausible ou Umami por serem focadas em privacidade) para entender de onde vêm os visitantes.
